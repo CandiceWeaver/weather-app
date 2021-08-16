@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right bottom, #a8dadc, #457b9d, #1d3557);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.location,
+.temp {
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.temp {
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.temp-degrees {
+  display: flex;
+  align-items: center;
+}
+
+.temp-degrees span {
+  margin: 0.625rem;
+  font-size: 2rem;
+}
+
+.temp-degrees h2 {
+  font-size: 3rem;
+}
